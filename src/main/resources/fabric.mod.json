@@ -15,13 +15,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "olivermakesco.de.treeworld.ExampleMod"
+      "olivermakesco.de.treeworld.Entrypoint"
+    ],
+    "client": [
+      "olivermakesco.de.treeworld.Entrypoint"
     ]
   },
   "mixins": [
     "treeworld.mixins.json"
   ],
-
+  "accessWidener": "treeworld.accesswidener",
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
